@@ -18,11 +18,17 @@ AirBnB is a perfect platform to search flats, apartments and other living facili
 
 There are 3 main parts of the database:
  **1. User information**
+ 
  ![enter image description here](https://i.imgur.com/QwEV1fD.png)
+ 
  **2. Living facility information**
+ 
 ![enter image description here](https://i.imgur.com/xaZbvIF.png)
+
  **4. Order information**
+ 
  ![enter image description here](https://i.imgur.com/rwSm4EH.png)
+ 
 
 **Also there are secondary parts of the database that helps to communicate with customers and owners and review them:**
  - **Messages**
