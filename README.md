@@ -112,3 +112,4 @@ For **photos** table:
 
 ## A few of words about data validity
 In my opinion data validity have to be done on the frontend side as well as database security against SQL injection etc. So in this project there are a few triggers that validates the data.
+
