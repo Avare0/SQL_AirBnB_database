@@ -40,7 +40,8 @@ There are 3 main parts of the database:
  ![enter image description here](https://i.imgur.com/3VX5E7b.png)
  
 
-Another auxiliary structures:
+**Another auxiliary structures:**
+
 For **users** table:
  - **user_types** -- represents whether user is a guest, householder or both
  
