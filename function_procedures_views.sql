@@ -196,7 +196,7 @@ BEGIN
 	WHERE city_id = city AND house_type_id = house_type AND guests_amount >= guests AND bed_amount >= beds AND bathroom_amount >= bathroom AND price >= price_amount;
 END//
 
-CREATE PROCEDURE sort_by_price(IN city int, house_type int, guests int, beds int, bathrooms int,)
+CREATE PROCEDURE sort_by_price(IN city int, house_type int, guests int, beds int, bathrooms int)
 BEGIN
 	SELECT name,
 		   user_name(owner_id) AS 'House owner name',
