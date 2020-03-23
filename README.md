@@ -32,64 +32,97 @@ There are 3 main parts of the database:
 
 **Also there are secondary parts of the database that helps to communicate with customers and owners and review them:**
  - **Messages**
+ 
 ![enter image description here](https://i.imgur.com/t3VYrMu.png)
+
  - **Testimonials**
+ 
  ![enter image description here](https://i.imgur.com/3VX5E7b.png)
+ 
 
 Another auxiliary structures:
 For **users** table:
  - **user_types** -- represents whether user is a guest, householder or both
+ 
  ![enter image description here](https://i.imgur.com/3tvOJ1l.png)
+ 
  - **identity_status** -- user ID confirmation status
+ 
 ![enter image description here](https://i.imgur.com/fZSo2Ms.png)
+
  - **user_bookmarks**
+ 
 ![enter image description here](https://i.imgur.com/Iec3QEQ.png)
+
  - **sex_types**
+ 
 ![enter image description here](https://i.imgur.com/z8Nzic6.png)
+
 
 For **house_info** table:
  - **advantages, advantage_types** -- advantages of the living facility
+ 
 ![enter image description here](https://i.imgur.com/PHGNg1O.png)
 ![enter image description here](https://i.imgur.com/U6nUMMC.png)
+
  - **beds, bed_types** -- types of beds, cause it`s an essential parameter for houses
+ 
 ![enter image description here](https://i.imgur.com/Y4Xsvrm.png)
 ![enter image description here](https://i.imgur.com/ycI88Ob.png)
+
  - **available_dates**
+ 
 ![enter image description here](https://i.imgur.com/S7QTIwk.png)
+
  - **house_types** -- whether living facility is a flat, house or guesthouse
+ 
  ![enter image description here](https://i.imgur.com/L0Y8FBO.png)
+ 
  - **facilities, facility_types**
+ 
 ![enter image description here](https://i.imgur.com/Ynm4X0X.png)
 ![enter image description here](https://i.imgur.com/CNg5zGM.png)
+
  - **other_owners** -- airbnb allows to choose a lot of owners of the house
+ 
 ![enter image description here](https://i.imgur.com/JXbHK0e.png)
 
 For **messages** table: 
 
  - **report_types** -- message can be reported for spam, cheating etc.
+ 
 ![enter image description here](https://i.imgur.com/QIsTYdp.png)
 
 For **orders** table:
 
  - **guest_list** -- other guests user ids
+ 
 ![enter image description here](https://i.imgur.com/kPV4HpH.png)
+
  - **order_statuses** -- whether order is confirmed by the householder, confirmed and payed or just paid
+ 
  ![enter image description here](https://i.imgur.com/ntSz5v2.png)
 
 For **testimonials** table:
 
  - **target_type** -- Testimonials can be written for both: guests and houses(householders)
+ 
 ![enter image description here](https://i.imgur.com/lfCEgEZ.png)
 
 For **photos** table:
  - **photo_target_types** -- photo can be uploaded for the profile, living facility gallery or as an attachment to the message
+ 
  ![enter image description here](https://i.imgur.com/Bchk3UE.png)
 
 **Location** tables:
  - **countries**
+ 
 ![enter image description here](https://i.imgur.com/AsSNvxz.png)
+
  - **cities**
+ 
 ![enter image description here](https://i.imgur.com/an7MNlz.png)
+
 ## Database procedures and function
 **Functions:**
  - **user_name(id)** - returns user`s full name
